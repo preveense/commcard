@@ -1,0 +1,7 @@
+  889  git add commcard_firmware_top_level.txt 
+  890  git remote add origin https://github.com/preveense/commcard.git
+  896  git commit -m "first commit"
+  898  git config --global user.email "dxb1230@gmail.com"
+  899  git config  --global user.name "preveen p"
+  900  git commit -m "first commit"
+  901  git push -u origin master
