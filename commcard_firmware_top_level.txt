@@ -1,0 +1,20 @@
+Initialize the Hardware
+
+Initialize Peripherals;
+
+get_gsm_data();
+
+while (true) {
+  get_monitor_data();
+  if(is_server_connection_available) {
+    send_data_to_server();
+    
+  } else {
+    log_data_to_flash();
+  }
+}
+end;
+
+
+
+
